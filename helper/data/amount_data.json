@@ -1,0 +1,9 @@
+{
+  "defaultLimited" : 25,
+  "requestNumberData": [
+    20, 
+    5, 
+    1
+  ],
+  "invalidInput" : "Book@1234"
+}

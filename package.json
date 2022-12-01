@@ -1,0 +1,22 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "as technical test stockbit",
+  "main": "index.js",
+  "scripts": {
+    "test-api": "node ./node_modules/mocha/bin/mocha ./tests --recursive --reporter mochawesome --reporter-options reportDir=reports/ --timeout 50000",
+    "reports": "open ./reports/mochawesome.html"
+  },
+  "author": "fendy prayogi",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.1"
+  },
+  "dependencies": {
+    "chai-json-schema": "^1.5.1"
+  }
+}

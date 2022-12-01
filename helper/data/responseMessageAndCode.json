@@ -1,0 +1,33 @@
+{
+  "successOk": 200,
+  "successCreated": 201,
+  "successAccepted": 202,
+  "successNoContent": 204,
+  "failedBadRequest": {
+    "codeNumber": 400,
+    "codeMessage": "BadRequest"
+  },
+  "failedUnauthorized": {
+    "codeNumber": 401,
+    "codeMessage": "Token can't be null!"
+  },
+  "failedForbiddenInvalidToken": {
+    "codeNumber": 401,
+    "codeMessageForbidden": "Forbidden"
+  },
+  "failedNotFound": {
+    "codeNumber": 404,
+    "codeMessage": "NotFound"
+  },
+  "failedInternalServerError": {
+    "codeNumber": 500,
+    "codeMessage": "InternalServerError"
+  },
+  "failedUnprocessableEntity": {
+    "codeNumber": 422
+  },
+  "failedGatewayTimeOutError": {
+    "codeNumber": 504,
+    "codeMessage": "GatewayTimeOutError"
+  }
+}
